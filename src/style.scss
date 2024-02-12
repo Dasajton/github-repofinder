@@ -57,6 +57,7 @@ body {
   
         &:hover {
           text-decoration: underline;
+          background-color: darken($tertiaryColor, 10%);
         }
         
         a {
