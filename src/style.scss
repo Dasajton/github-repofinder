@@ -17,50 +17,57 @@ body {
   justify-content: center;
   align-items: center;
 
-  form {
-    margin: 1rem 0;
-    display: flex;
-    justify-content: center;
+  .wrapper {
+    margin-top: 1rem;
 
-    input,button {
-      padding: 0.5rem 1rem;
-      margin: 0.1rem;
-      border: none;
-      border-radius: 0.2rem;
-      outline: none;
-    }
-    button {
-      background-color: $tertiaryColor;
-      color: $secondaryColor;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-
-      &:hover {
-        background-color: darken($tertiaryColor, 10%);
+    form {
+      margin: 1rem 0;
+      display: flex;
+      justify-content: center;
+  
+      input,button {
+        padding: 0.5rem 1rem;
+        margin: 0.1rem;
+        border: none;
+        border-radius: 0.2rem;
+        outline: none;
       }
-    }
-  }
-
-  .repo-list {
-    list-style: none;
-
-    li {
-      padding: 1rem;
-      margin: 0.5rem;
-      border-radius: 0.2rem;
-      background-color: $tertiaryColor;
-      cursor: pointer;
-
-      &:hover {
-        text-decoration: underline;
-      }
-      
-      a {
+      button {
+        background-color: $tertiaryColor;
         color: $secondaryColor;
-        text-decoration: none;
         font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: darken($tertiaryColor, 10%);
+        }
+      }
+    }
+  
+    .repo-list {
+      list-style: none;
+  
+      li {
+        padding: 1rem;
+        margin: 0.5rem;
+        border-radius: 0.2rem;
+        background-color: $tertiaryColor;
+        cursor: pointer;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+        
+        a {
+          color: $secondaryColor;
+          text-decoration: none;
+          font-weight: 600;
+        }
       }
     }
   }
+
+  
 }
 

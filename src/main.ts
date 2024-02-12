@@ -3,10 +3,10 @@ import { GitHubRepo } from "./interfaces";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = /*html*/ `
   <div class="wrapper">
-    <h1>GitHub Repository-Finder</h1>
+    <h1>GitHub Repository Finder</h1>
     <form id="username-form">
       <input id="username-input" type="text" placeholder="Enter GitHub Username" />
-      <button type="submit">Submit</button>
+      <button type="submit">Find Respositories</button>
     </form>
     <ul class="repo-list"></ul>
   </div>
